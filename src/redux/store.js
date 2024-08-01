@@ -1,0 +1,10 @@
+/* eslint-disable prettier/prettier */
+
+import { configureStore } from '@reduxjs/toolkit';
+import notesReducer from './notesSlice';
+
+export const store = configureStore({
+    reducer: {
+        notes: notesReducer,
+    },
+});

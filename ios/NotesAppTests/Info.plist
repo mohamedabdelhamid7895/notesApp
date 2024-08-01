@@ -20,5 +20,9 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<array>
+  <string>MaterialIcons.ttf</string>
+  <string>FontAwesome.ttf</string>
+</array>
 </dict>
 </plist>
